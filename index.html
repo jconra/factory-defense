@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Factory Defense</title>
+<style>
+body {margin:0px; overflow:hidden;}
+canvas {position:fixed; top:0px; left:0px; z-index:10; width:256px; height:256px;}
+</style>
+</head>
+<body>
+<script type="importmap">
+  {
+     "imports": {
+       "three": "https://unpkg.com/three@0.156.1/build/three.module.js",
+       "stats": "https://cdnjs.cloudflare.com/ajax/libs/stats.js/r17/Stats.min.js",
+         "svg": "https://threejs.org/examples/jsm/loaders/SVGLoader.js",
+    "controls": "https://unpkg.com/three@0.161.0/examples/jsm/controls/OrbitControls.js",
+         "map": "./modules/Map.js"
+    }
+  }
+</script>
+<script src="https://cdn.jsdelivr.net/npm/lil-gui@0.17"></script>
+<script type="module" src="./main.js"></script>
+</body>
+</html>
